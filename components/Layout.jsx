@@ -4,7 +4,6 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 
 const Layout = ({ children }) => {
-  console.log("=== children Layout.jsx [7] ===", children);
   return (
     <div className="layout">
       <Head>

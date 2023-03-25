@@ -118,6 +118,7 @@ width: 100%;
  background-color: #ebebeb;
   transform: scale(1, 1);
   transition: transform 0.5s ease;
+  aspect-ratio: 3/4;
 }
 
 .product-name{
@@ -427,9 +428,9 @@ padding: 30px 65px;
 .product-detail-image{
   border-radius: 15px;
    background-color: #ebebeb;
-
-  width: 400px;
-  height: 400px;
+   width: 250px;
+   height: 333.33px; /* 250px / (3/4) = 333.33px */
+   object-fit: contain;
   cursor: pointer;
   transition: .3s ease-in-out;
 }
