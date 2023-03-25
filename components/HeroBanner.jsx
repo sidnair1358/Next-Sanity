@@ -5,7 +5,6 @@ import { urlFor } from "../lib/client";
 
 const HeroBanner = ({ heroBanner }) => {
   const { smalltext, buttonText, midText, image, desc, product } = heroBanner;
-  console.log("=== product heroBanner.jsx [8] ===", product);
 
   return (
     <div className="hero-banner-container">
